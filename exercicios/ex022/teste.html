@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            
+            background-color: blue;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        div {
+            position: absolute;
+        }
+
+        div#id1 {
+            position: fixed;
+            background-color: lightgray;
+            
+            box-shadow: 1px 1px 1px black;
+            width: 150px;
+            height: 100%;
+            left: 0;
+        }
+
+        div#id2 {
+            background-color: yellow;
+            height: 100%;
+            left: 151px;
+            right: 0;
+            padding-left: 10px;
+        }
+
+        div#id2 h1 {
+            /*margin-top: 0;*/
+        }
+
+    </style>
+</head>
+<body>
+    <div id="id1">
+        <ul>
+            <li>Produtos</li>
+            <li>Categorias</li>
+        </ul>
+    </div>
+    <div id="id2">
+        <h1>Hello Pie Piper</h1>
+    </div>
+</body>
+</html>
